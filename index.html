@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <title>AG3 - Luxury Travel</title>
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiperjs  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header section starts  -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><img src="/images/logo.png" alt="logo"></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- header section ends  -->
+
+
+    <!-- login section starts  -->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have you account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+    <!-- login section ends  -->
+
+    
+    <!-- home section starts  -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>ag3 - tu agencia de viajes</h3>
+            <p>descubre nuevos lugares con nosotros</p>
+            <a href="#" class="btn">descubrir mas</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="/images/vid1.mp4"></span>
+            <span class="vid-btn" data-src="/images/vid2.mp4"></span>
+            <span class="vid-btn" data-src="/images/vid3.mp4"></span>
+            <span class="vid-btn" data-src="/images/vid4.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="/images/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <!-- home section ends  -->
+
+
+    <!-- book section starts  -->
+    <div class="book-content">
+    <section class="book" id="book">
+
+        <h1 class="heading" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-offset="200" data-aos-duration="1200">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image" data-aos="fade-right" data-aos-offset="240" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+                <img src="/images/book.svg" alt="booking">
+            </div>
+
+            <form action="" data-aos="fade-left" data-aos-offset="240" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <!-- <input type="submit" class="btn" value="book now"> -->
+                <a href="./quote.html" type="submit" class="btn">Book now</a>
+            </form>
+
+        </div>
+
+    </section>
+    </div>
+    <!-- book section ends  -->
+
+
+    <!-- packages section starts  -->
+    <section class="packages" id="packages" >
+        <h1 class="heading" data-aos="fade-up" data-aos-offset="200" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/packages/package1.jpg" alt="package1">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> venecia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            
+            <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/packages/package2.jpg" alt="package2">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> chichen itza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/packages/package3.jpg" alt="package3">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> dubai</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-offset="250" data-aos-duration="1200">
+                <img src="/images/packages/package4.jpg" alt="package4">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> paris</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="250" data-aos-duration="1200">
+                <img src="/images/packages/package5.jpg" alt="package5">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> valencia, españa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-offset="250" data-aos-duration="1200">
+                <img src="/images/packages/package6.jpg" alt="package6">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> canada</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, amet.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- packages section ends  -->
+
+
+    <!-- services section starts -->
+    <section class="services" id="services">
+        <h1 class="heading" data-aos="fade-down" data-aos-offset="200" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="flip-left" data-aos-offset="240" data-aos-duration="1200">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia et, veniam laboriosam aliquid sint veritatis! Mollitia velit necessitatibus iste.</p>
+            </div>
+            <div class="box" data-aos="flip-up" data-aos-offset="240" data-aos-duration="1200">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia et, veniam laboriosam aliquid sint veritatis! Mollitia velit necessitatibus iste.</p>
+            </div>
+            <div class="box" data-aos="flip-right" data-aos-offset="240" data-aos-duration="1200">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia et, veniam laboriosam aliquid sint veritatis! Mollitia velit necessitatibus iste.</p>
+            </div>
+            <div class="box" data-aos="flip-left" data-aos-offset="240" data-aos-duration="1200">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia et, veniam laboriosam aliquid sint veritatis! Mollitia velit necessitatibus iste.</p>
+            </div>
+            <div class="box" data-aos="flip-down" data-aos-offset="240" data-aos-duration="1200">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia et, veniam laboriosam aliquid sint veritatis! Mollitia velit necessitatibus iste.</p>
+            </div>
+            <div class="box" data-aos="flip-right" data-aos-offset="240" data-aos-duration="1200">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia et, veniam laboriosam aliquid sint veritatis! Mollitia velit necessitatibus iste.</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- services section ends  -->
+
+
+    <!-- gallery section starts  -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading" data-aos="fade-down" data-aos-offset="200" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery2.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery1.jpg" alt="gallery2">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery3.jpg" alt="gallery3">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery4.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery3.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery2.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery1.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery4.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-offset="240" data-aos-duration="1200">
+                <img src="/images/gallery/gallery3.jpg" alt="gallery">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint?</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- gallery section ends  -->
+
+
+    <!-- review section starts  -->
+    <div class="review-background">
+    <section class="review" id="review">
+        <h1 class="heading" data-aos="zoom-out-up" data-aos-offset="200" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide" data-aos="flip-left" data-aos-offset="240" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
+                    <div class="box">
+                        <img src="/images/review/testimonio2.jpg" alt="testimonio">
+                        <h3>alex campos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla dolorum aspernatur id beatae rerum, impedit officia. Ipsam numquam commodi hic, consectetur quod velit, sapiente asperiores, natus mollitia quae labore!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" data-aos="flip-left" data-aos-offset="240" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
+                    <div class="box">
+                        <img src="/images/review/testimonio1.jpg" alt="testimonio1">
+                        <h3>gemma montero</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla dolorum aspernatur id beatae rerum, impedit officia. Ipsam numquam commodi hic, consectetur quod velit, sapiente asperiores, natus mollitia quae labore!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" data-aos="flip-left" data-aos-offset="240" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
+                    <div class="box">
+                        <img src="/images/review/testimonio3.jpg" alt="testimonio">
+                        <h3>axel zabala</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla dolorum aspernatur id beatae rerum, impedit officia. Ipsam numquam commodi hic, consectetur quod velit, sapiente asperiores, natus mollitia quae labore!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" data-aos="flip-left" data-aos-offset="240" data-aos-easing="ease-out-cubic"
+                data-aos-duration="1200">
+                    <div class="box">
+                        <img src="/images/review/testimonio4.jpg" alt="testimonio1">
+                        <h3>matias labrador</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla dolorum aspernatur id beatae rerum, impedit officia. Ipsam numquam commodi hic, consectetur quod velit, sapiente asperiores, natus mollitia quae labore!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- review section ends  -->
+
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+        <h1 class="heading" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="200" data-aos-duration="1200">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image" data-aos="fade-right" data-aos-offset="240" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+                <img src="/images/contact.svg" alt="contact-us">
+            </div>
+
+            <form action="" data-aos="fade-left" data-aos-offset="240" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+
+    </section>
+    <!-- contact section ends  -->
+
+    <!-- footer section starts  -->
+    <section class="footer" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum, amet, culpa assumenda tenetur sunt modi dolorum incidunt ut enim ipsam, nam ullam repellat ipsa doloremque labore aperiam quibusdam accusamus?</p>
+            </div>
+            <div class="box">
+                <h3>language</h3>
+                <a href="#"><img class="flag" src="./images/flags/en.svg" alt="english-flag"> english</a>
+                <a href="#"><img class="flag" src="./images/flags/es.svg" alt="spanish-flag"> spanish</a>
+                <a href="#"><img class="flag" src="./images/flags/fr.svg" alt="french-flag"> french</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#" class="face-blue" ><i class="face fab fa-facebook-f"></i> facebook</a>
+                <a href="#" class="insta-violet"><i class="insta fab fa-instagram"></i> instagram</a>
+                <a href="#" class="twit-blue" ><i class="twit fab fa-twitter"></i> twitter</a>
+                <a href="#" class="whats-green"><i class="whats fab fa-whatsapp"></i> whatsapp</a>
+            </div>
+        </div>
+
+        <h1 class="credit">created by <span>JS Arthuro</span> | all rights reserved! </h1>
+    </section>
+    <!-- footer section ends  -->
+
+
+
+
+    <!-- swiperjs  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- scripts  -->
+    <script src="/js/script.js"></script>
+    <!-- aos animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
